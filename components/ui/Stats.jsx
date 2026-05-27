@@ -2,6 +2,7 @@
 
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
+<<<<<<< HEAD
 import { FaBriefcase, FaCode, FaTools, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const stats = [
@@ -50,6 +51,64 @@ const socials = [
       name: "X (Twitter)",
       color: "hover:text-sky-400"
     },
+=======
+import { 
+  FaBriefcase, 
+  FaTools, 
+  FaTerminal, 
+  FaShieldAlt, 
+  FaInstagram, 
+  FaLinkedin, 
+  FaTwitter 
+} from "react-icons/fa";
+
+const stats = [
+  {
+    num: 1,
+    text: "Years of experience",
+    icon: <FaBriefcase />,
+    suffix: "+",
+  },
+  {
+    num: 12, 
+    text: "Machines Pwned", 
+    icon: <FaTerminal />, 
+    suffix: "+",
+  },
+  {
+    num: 8,
+    text: "Technologies mastered",
+    icon: <FaTools />,
+    suffix: "+",
+  },
+  {
+    num: 5, 
+    text: "Security Deployments", 
+    icon: <FaShieldAlt />,
+    suffix: "+",
+  },
+];
+
+const socials = [
+  {
+    icon: <FaInstagram />,
+    path: "https://www.instagram.com/rzidannn?igsh=bjc2ZXljcmRzOXI2",
+    name: "Instagram",
+    color: "hover:text-pink-500"
+  },
+  {
+    icon: <FaLinkedin />,
+    path: "https://www.linkedin.com/in/rajib-zidan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    name: "LinkedIn",
+    color: "hover:text-blue-500"
+  },
+  {
+    icon: <FaTwitter />,
+    path: "https://x.com/rzidannn?t=12hBUaHUHeVPjF7WPyrIoA&s=09",
+    name: "X (Twitter)",
+    color: "hover:text-sky-400"
+  },
+>>>>>>> ae3ea4f (update dikit)
 ];
 
 const Stats = () => {
@@ -109,8 +168,11 @@ const Stats = () => {
             );
           })}
         </motion.div>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ae3ea4f (update dikit)
       </div>
     </section>
   );

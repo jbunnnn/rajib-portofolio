@@ -55,7 +55,7 @@ const education = {
   items: [
     {
       institution: "IPB University",
-      degree: "D4 Computer Engineering Technology",
+      degree: "Computer Engineering Technology",
       duration: "2025 – Present",
       logo: "/images/education/ipb.png",
     },
@@ -313,6 +313,17 @@ const Card = ({ duration, title, subtitle, logo }) => {
       <h3 className="text-base xl:text-lg font-bold leading-tight min-h-[56px] flex items-center group-hover:text-accent transition-colors duration-300">
         {title}
       </h3>
+<<<<<<< HEAD
+
+      {/* Subtitle */}
+      <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors duration-300 font-medium">
+        {subtitle}
+      </p>
+    </li>
+  );
+};
+=======
+>>>>>>> ae3ea4f (update dikit)
 
       {/* Subtitle */}
       <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors duration-300 font-medium">
